@@ -1,17 +1,18 @@
 {
-  "name": "name",
+  "name": "pkg-name",
   "version": "0.0.0",
   "description": "__TODO__",
+  "packageManager": "pnpm@7.0.0",
   "keywords": [],
-  "homepage": "https://github.com/ntnyq/[name]#readme",
+  "homepage": "https://github.com/ntnyq/[pkg-name]#readme",
   "bugs": {
-    "url": "https://github.com/ntnyq/[name]/issues"
+    "url": "https://github.com/ntnyq/[pkg-name]/issues"
   },
   "license": "MIT",
   "author": "ntnyq <ntnyq13@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ntnyq/[name].git"
+    "url": "git+https://github.com/ntnyq/[pkg-name].git"
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -21,7 +22,8 @@
       "require": "./dist/index.cjs",
       "import": "./dist/index.mjs",
       "types": "./dist/index.d.ts"
-    }
+    },
+    "./*": "./*"
   },
   "typesVersions": {
     "*": {
@@ -54,16 +56,16 @@
   },
   "devDependencies": {
     "@ntnyq/eslint-config-typescript": "^0.5.0",
-    "@types/node": "^17.0.23",
-    "eslint": "^8.12.0",
+    "@types/node": "^17.0.31",
+    "eslint": "^8.14.0",
     "esno": "^0.14.1",
-    "fs-extra": "^10.0.1",
+    "fs-extra": "^10.1.0",
     "picocolors": "^1.0.0",
-    "pnpm": "^6.32.4",
+    "pnpm": "^7.0.0",
     "rimraf": "^3.0.2",
-    "typescript": "^4.6.3",
-    "unbuild": "^0.7.2",
-    "vite": "^2.9.1",
-    "vitest": "^0.9.0"
+    "typescript": "^4.6.4",
+    "unbuild": "^0.7.4",
+    "vite": "^2.9.8",
+    "vitest": "^0.10.5"
   }
 }

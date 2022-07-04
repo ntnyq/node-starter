@@ -1,6 +1,6 @@
 export const msg = `hello world`
 
-export const greet = (): string => {
+export const greet = () => {
   console.log(msg)
   return msg
 }

@@ -48,6 +48,7 @@
     "prepublishOnly": "pnpm run build",
     "start": "tsx src/index.ts",
     "test": "vitest",
+    "coverage": "vitest --coverage",
     "prepare": "husky install",
     "typecheck": "tsc --noEmit",
     "release": "run-s release:check release:publish",
@@ -57,6 +58,7 @@
   "devDependencies": {
     "@ntnyq/eslint-config-typescript": "^1.0.4",
     "@types/node": "^18.8.3",
+    "@vitest/coverage-c8": "^0.24.0",
     "bumpp": "^8.2.1",
     "eslint": "^8.25.0",
     "fs-extra": "^10.1.0",

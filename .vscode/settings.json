@@ -1,4 +1,17 @@
 {
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "yaml",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "json5"
+  ],
   "cSpell.words": [
     "bumpp",
     "changelogithub",
@@ -6,5 +19,6 @@
     "pnpm",
     "vite",
     "vitest"
-  ]
+  ],
+  "cSpell.allowCompoundWords": true
 }

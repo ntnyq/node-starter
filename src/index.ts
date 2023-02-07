@@ -1,4 +1,4 @@
-export const msg = `hello world`
+export const msg = 'hello world'
 
 export const greet = () => {
   console.log(msg)

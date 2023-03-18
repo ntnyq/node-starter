@@ -1,4 +1,5 @@
 {
+  "editor.formatOnSave": true,
   "eslint.validate": [
     "vue",
     "yaml",
@@ -12,16 +13,6 @@
     "javascriptreact",
     "typescriptreact"
   ],
-  "[typescript]": {
-    "editor.formatOnSave": false
-  },
-  "cSpell.words": [
-    "bumpp",
-    "changelogithub",
-    "lcov",
-    "pnpm",
-    "vite",
-    "vitest"
-  ],
+  "cSpell.words": ["bumpp", "changelogithub", "lcov", "pnpm", "vite", "vitest"],
   "cSpell.allowCompoundWords": true
 }

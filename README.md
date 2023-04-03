@@ -3,17 +3,21 @@
 [![CI](https://github.com/ntnyq/starter-ts/workflows/CI/badge.svg)](https://github.com/ntnyq/starter-ts/actions)
 [![NPM VERSION](https://img.shields.io/npm/v/starter-ts.svg)](https://www.npmjs.com/package/starter-ts)
 [![NPM DOWNLOADS](https://img.shields.io/npm/dy/starter-ts.svg)](https://www.npmjs.com/package/starter-ts)
-[![Coverage Status](https://coveralls.io/repos/github/ntnyq/starter-ts/badge.svg?branch=main)](https://coveralls.io/github/ntnyq/starter-ts?branch=main)
+[![CODECOV](https://codecov.io/github/ntnyq/starter-ts/branch/main/graph/badge.svg?token=2U07S1P2F2)](https://codecov.io/github/ntnyq/starter-ts)
 [![LICENSE](https://img.shields.io/github/license/ntnyq/starter-ts.svg)](https://github.com/ntnyq/starter-ts/blob/main/LICENSE)
 
 ## Install
 
-```shell
-$ npm install starter-ts
-# or
-$ yarn add starter-ts
-# or
-$ pnpm add starter-ts
+```bash
+npm install starter-ts
+```
+
+```bash
+yarn add starter-ts
+```
+
+```bash
+pnpm add starter-ts
 ```
 
 ## License

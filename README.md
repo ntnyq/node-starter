@@ -22,4 +22,4 @@ pnpm add starter-ts
 
 ## License
 
-[MIT](./LICENSE) License © 2023-PRESENT [ntnyq](https://github.com/ntnyq)
+[MIT](./LICENSE) License © 2024-PRESENT [ntnyq](https://github.com/ntnyq)

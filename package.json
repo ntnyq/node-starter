@@ -49,10 +49,10 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@ntnyq/eslint-config": "^2.7.3",
+    "@ntnyq/eslint-config": "^2.8.0",
     "@ntnyq/prettier-config": "^1.21.2",
-    "@vitest/coverage-v8": "^2.0.4",
-    "bumpp": "^9.4.1",
+    "@vitest/coverage-v8": "^2.0.5",
+    "bumpp": "^9.4.2",
     "eslint": "^9.8.0",
     "husky": "^9.1.4",
     "nano-staged": "^0.8.0",
@@ -61,7 +61,7 @@
     "prettier": "^3.3.3",
     "typescript": "^5.5.4",
     "unbuild": "^3.0.0-rc.7",
-    "vitest": "^2.0.4"
+    "vitest": "^2.0.5"
   },
   "engines": {
     "node": ">=18.18.0"

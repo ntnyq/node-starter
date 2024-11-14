@@ -9,8 +9,5 @@ export default defineBuildConfig({
     esbuild: {
       charset: 'utf8',
     },
-    output: {
-      exports: 'named',
-    },
   },
 })

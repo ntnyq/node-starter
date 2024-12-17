@@ -1,23 +1,25 @@
-# starter-ts
+# node-starter
 
-[![CI](https://github.com/ntnyq/starter-ts/workflows/CI/badge.svg)](https://github.com/ntnyq/starter-ts/actions)
-[![NPM VERSION](https://img.shields.io/npm/v/starter-ts.svg)](https://www.npmjs.com/package/starter-ts)
-[![NPM DOWNLOADS](https://img.shields.io/npm/dy/starter-ts.svg)](https://www.npmjs.com/package/starter-ts)
-[![CODECOV](https://codecov.io/github/ntnyq/starter-ts/branch/main/graph/badge.svg)](https://codecov.io/github/ntnyq/starter-ts)
-[![LICENSE](https://img.shields.io/github/license/ntnyq/starter-ts.svg)](https://github.com/ntnyq/starter-ts/blob/main/LICENSE)
+[![CI](https://github.com/ntnyq/node-starter/workflows/CI/badge.svg)](https://github.com/ntnyq/node-starter/actions)
+[![NPM VERSION](https://img.shields.io/npm/v/node-starter.svg)](https://www.npmjs.com/package/node-starter)
+[![NPM DOWNLOADS](https://img.shields.io/npm/dy/node-starter.svg)](https://www.npmjs.com/package/node-starter)
+[![CODECOV](https://codecov.io/github/ntnyq/node-starter/branch/main/graph/badge.svg)](https://codecov.io/github/ntnyq/node-starter)
+[![LICENSE](https://img.shields.io/github/license/ntnyq/node-starter.svg)](https://github.com/ntnyq/node-starter/blob/main/LICENSE)
+
+A starter template for node projects.
 
 ## Install
 
 ```bash
-npm install starter-ts
+npm install node-starter
 ```
 
 ```bash
-yarn add starter-ts
+yarn add node-starter
 ```
 
 ```bash
-pnpm add starter-ts
+pnpm add node-starter
 ```
 
 ## License

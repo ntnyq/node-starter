@@ -1,5 +1,5 @@
-import { expect, it } from 'vitest'
-
-it('Should return message', () => {
-  expect(1).toBe(1)
+describe('example', () => {
+  it('Should match', () => {
+    expect(1 + 1).toBe(2)
+  })
 })

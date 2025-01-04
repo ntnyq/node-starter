@@ -10,18 +10,18 @@ A starter template for node projects.
 
 ## Install
 
-```bash
+```shell
 npm install node-starter
 ```
 
-```bash
+```shell
 yarn add node-starter
 ```
 
-```bash
+```shell
 pnpm add node-starter
 ```
 
 ## License
 
-[MIT](./LICENSE) License © 2024-PRESENT [ntnyq](https://github.com/ntnyq)
+[MIT](./LICENSE) License © 2025-PRESENT [ntnyq](https://github.com/ntnyq)

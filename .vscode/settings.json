@@ -1,6 +1,6 @@
 {
-  "prettier.enable": true,
   "eslint.enable": true,
+  "prettier.enable": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
@@ -10,7 +10,6 @@
   "eslint.validate": [
     "vue",
     "yaml",
-    "html",
     "toml",
     "json",
     "jsonc",
@@ -21,6 +20,15 @@
     "javascriptreact",
     "typescriptreact"
   ],
-  "cSpell.words": ["bumpp", "changelogithub", "codecov", "lcov", "pnpm", "vite", "vitest"],
+  "cSpell.words": [
+    "bumpp",
+    "changelogithub",
+    "codecov",
+    "lcov",
+    "pnpm",
+    "vite",
+    "vitepress",
+    "vitest"
+  ],
   "cSpell.allowCompoundWords": true
 }

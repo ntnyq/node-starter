@@ -10,7 +10,6 @@
     "erasableSyntaxOnly": true,
     "libReplacement": false,
     "declaration": true,
-    "isolatedDeclarations": true,
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
     "esModuleInterop": true,
@@ -21,6 +20,7 @@
     "./src/**/*.ts",
     "./tests/**/*.ts",
     "./scripts/**/*.ts",
-    "./packages/**/*.ts"
+    "./packages/**/*.ts",
+    "./*.config.ts"
   ]
 }

@@ -29,6 +29,7 @@
     "esbuild",
     "lcov",
     "pnpm",
+    "tsdown",
     "vite",
     "vitepress",
     "vitest"

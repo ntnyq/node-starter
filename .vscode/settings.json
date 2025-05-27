@@ -30,6 +30,7 @@
     "lcov",
     "pnpm",
     "tsdown",
+    "unrs",
     "vite",
     "vitepress",
     "vitest"

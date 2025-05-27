@@ -5,7 +5,7 @@ packages:
   - playground
 
 overrides:
-  esbuild: ^0.25.4
+  esbuild: ^0.25.5
 
 onlyBuiltDependencies:
   - esbuild

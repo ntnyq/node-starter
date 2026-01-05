@@ -9,6 +9,7 @@
     "source.organizeImports": "never",
     "source.sortImports": "never"
   },
+  "typescript.experimental.useTsgo": true,
   "eslint.validate": [
     "vue",
     "yaml",
@@ -30,6 +31,7 @@
     "lcov",
     "pnpm",
     "tsdown",
+    "tsgo",
     "unrs",
     "vite",
     "vitepress",

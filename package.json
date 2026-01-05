@@ -48,6 +48,7 @@
     "@ntnyq/prettier-config": "^3.0.1",
     "@ntnyq/tsconfig": "^3.0.0",
     "@types/node": "^24.10.4",
+    "@typescript/native-preview": "^7.0.0-dev.20260104.1",
     "bumpp": "^10.3.2",
     "eslint": "^9.39.2",
     "husky": "^9.1.7",

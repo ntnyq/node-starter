@@ -23,4 +23,4 @@ pnpm add node-starter
 
 ## License
 
-[MIT](./LICENSE) License © 2025-PRESENT [ntnyq](https://github.com/ntnyq)
+[MIT](./LICENSE) License © 2026-PRESENT [ntnyq](https://github.com/ntnyq)

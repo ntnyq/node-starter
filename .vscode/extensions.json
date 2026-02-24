@@ -2,7 +2,6 @@
   "recommendations": [
     "streetsidesoftware.code-spell-checker",
     "editorconfig.editorconfig",
-    "dbaeumer.vscode-eslint",
     "typescriptteam.native-preview",
     "oxc.oxc-vscode"
   ]

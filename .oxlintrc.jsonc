@@ -20,7 +20,7 @@
   },
   "ignorePatterns": ["**/dist/**", "**/node_modules/**", "**/fixtures/**"],
   "rules": {
-    "no-telnary": "off",
+    "no-ternary": "off",
     "no-undefined": "off",
     "no-plusplus": "off",
     "sort-keys": "off",
@@ -56,6 +56,7 @@
       "files": ["*.config.{ts,mjs}"],
       "rules": {
         "new-cap": "off",
+        "sort-keys": "warn",
         "import/no-nodejs-modules": "off",
         "import/no-default-export": "off",
       },

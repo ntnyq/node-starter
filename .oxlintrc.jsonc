@@ -18,7 +18,12 @@
     "style": "warn",
     "restriction": "warn",
   },
-  "ignorePatterns": ["**/dist/**", "**/node_modules/**", "**/fixtures/**"],
+  "ignorePatterns": [
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/fixtures/**",
+    "**/__snapshots__/**",
+  ],
   "rules": {
     "no-ternary": "off",
     "no-undefined": "off",
@@ -88,6 +93,7 @@
         "typescript/prefer-ts-expect-error": "off",
         "typescript/require-array-sort-compare": "off",
         "vitest/no-importing-vitest-globals": "off",
+        "vitest/require-test-timeout": "off",
       },
     },
   ],

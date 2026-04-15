@@ -18,7 +18,12 @@
     "style": "warn",
     "restriction": "warn",
   },
-  "ignorePatterns": ["**/dist/**", "**/node_modules/**", "**/fixtures/**"],
+  "ignorePatterns": [
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/fixtures/**",
+    "**/__snapshots__/**",
+  ],
   "rules": {
     "no-ternary": "off",
     "no-undefined": "off",
@@ -27,12 +32,8 @@
     "sort-imports": "off",
     "import/no-named-export": "off",
     "import/group-exports": "off",
-    "eslint/func-style": [
-      "warn",
-      "declaration",
-      { "allowArrowFunctions": true },
-    ],
-    "eslint/no-magic-numbers": [
+    "func-style": ["warn", "declaration", { "allowArrowFunctions": true }],
+    "no-magic-numbers": [
       "warn",
       {
         "ignore": [0, 1, -1, 2, 10, 100, 1000],
@@ -88,6 +89,10 @@
         "typescript/prefer-ts-expect-error": "off",
         "typescript/require-array-sort-compare": "off",
         "vitest/no-importing-vitest-globals": "off",
+        "vitest/consistent-test-it": "off",
+        "vitest/require-test-timeout": "off",
+        "vitest/prefer-expect-assertions": "off",
+        "vitest/require-top-level-describe": "off",
       },
     },
   ],

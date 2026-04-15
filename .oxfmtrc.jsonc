@@ -18,6 +18,7 @@
     "**/node_modules/**",
     "**/dist/**",
     "**/fixtures/**",
+    "**/__snapshots__/**",
   ],
   "insertFinalNewline": true,
   "jsxSingleQuote": true,

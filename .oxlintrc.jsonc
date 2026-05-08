@@ -90,6 +90,7 @@
         "typescript/require-array-sort-compare": "off",
         "vitest/no-importing-vitest-globals": "off",
         "vitest/consistent-test-it": "off",
+        "vitest/prefer-lowercase-title": "off",
         "vitest/require-test-timeout": "off",
         "vitest/prefer-expect-assertions": "off",
         "vitest/require-top-level-describe": "off",

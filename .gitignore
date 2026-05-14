@@ -14,3 +14,7 @@ lib-cov
 **/.vitepress/cache
 
 **/.pnpm-store/**
+
+# pnpm
+.pnpm-debug.log*
+.pnpm-store

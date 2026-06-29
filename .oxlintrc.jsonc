@@ -65,9 +65,7 @@
     {
       "files": ["*.d.ts"],
       "rules": {
-        // to extend existing modules, import/export must not appear in declaration files at top level
         "import/unambiguous": "off",
-        // we need `export {}` to convert a file to a module
         "unicorn/require-module-specifiers": "off",
       },
     },
@@ -79,10 +77,10 @@
         "max-classes-per-file": "off",
         "max-lines-per-function": "off",
         "max-lines": "off",
+        "no-undefined": "off",
         "max-statements": "off",
         "no-empty-function": "off",
         "no-magic-numbers": "off",
-        "no-undefined": "off",
         "import/no-nodejs-modules": "off",
         "typescript/ban-ts-comment": "off",
         "typescript/no-non-null-assertion": "off",

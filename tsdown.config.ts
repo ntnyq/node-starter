@@ -1,5 +1,4 @@
 import { defineConfig } from 'tsdown'
-import ApiSnapshot from 'tsnapi/rolldown'
 
 export default defineConfig({
   clean: true,
@@ -8,5 +7,4 @@ export default defineConfig({
   },
   entry: ['src/index.ts'],
   platform: 'neutral',
-  plugins: [ApiSnapshot()],
 })

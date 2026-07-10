@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@ntnyq/tsconfig": "^3.1.0",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "@typescript/native-preview": "^7.0.0-dev.20260707.2",
     "bumpp": "^11.1.0",
     "husky": "^9.1.7",
@@ -57,12 +57,12 @@
     "npm-run-all2": "^9.0.2",
     "oxfmt": "^0.58.0",
     "oxlint": "^1.73.0",
-    "tsdown": "^0.22.3",
+    "tsdown": "^0.22.4",
     "vitest": "^4.1.10"
   },
   "nano-staged": {
     "*.{js,ts,mjs,tsx}": "oxlint --fix --no-error-on-unmatched-pattern",
     "*": "oxfmt --no-error-on-unmatched-pattern"
   },
-  "packageManager": "pnpm@11.10.0"
+  "packageManager": "pnpm@11.11.0"
 }

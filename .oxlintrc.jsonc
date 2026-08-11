@@ -26,6 +26,7 @@
   ],
   "rules": {
     "capitalized-comments": "off",
+    "one-var": "off",
     "complexity": "off",
     "no-ternary": "off",
     "no-undefined": "off",

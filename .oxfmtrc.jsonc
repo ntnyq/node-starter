@@ -25,6 +25,21 @@
   "objectWrap": "preserve",
   "overrides": [
     {
+      "files": [
+        "**/types.ts",
+        "**/types/*.ts",
+        "**/constants.ts",
+        "**/constants/*.ts",
+        "**/utils.ts",
+        "**/utils/*.ts",
+      ],
+      "options": {
+        "jsdoc": {
+          "commentLineStrategy": "multiline",
+        },
+      },
+    },
+    {
       "files": ["**/*.{css,scss}"],
       "options": {
         "singleQuote": false,

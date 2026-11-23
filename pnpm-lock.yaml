@@ -203,7 +203,7 @@ importers:
         specifier: ^0.23.7
         version: 0.23.7(typescript@7.1.0-dev.20261116.1)
       typescript:
-        specifier: ^7.1.0-beta
+        specifier: ^7.1.0-dev.20261115.1
         version: 7.1.0-dev.20261116.1
       vitest:
         specifier: ^5.1.0
